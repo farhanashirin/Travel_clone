@@ -250,7 +250,7 @@ position: absolute;
 }
 .col p{
 
-    color: brown;
+    color: rgb(12, 11, 11);
 }
 .italy{
 
@@ -326,10 +326,7 @@ position: absolute;
 
     font-size: 80px;
 }
-#places p{
 
-    
-}
 
 
 
@@ -504,7 +501,7 @@ color: white !important;
 #more .pb {
 
     background-image: url(https://images.squarespace-cdn.com/content/v1/53172b1be4b0cc8a5401db4a/1564522286836-K1D523NKQZ7JIE89GFDP/DSC07431.jpg?format=2500w);
-    height: 120vh;
+    height: 90vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -570,23 +567,6 @@ color: white !important;
 color: white !important;
 }
 
-    /* Grids */
-
-.grids-wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-
-}
-
-
-.grids-wrapper  a {
-    text-decoration: none;
-}
-
-.grifimgs {
-    grid-column:1/4 ;
-}
 
 .container-wrapper {
     display: flex;
@@ -595,25 +575,7 @@ color: white !important;
     margin-top: 100px;
 }
 
-/* paint */
-#paint .pb {
-    margin-top: 100px;
-    background-image: url(./Assets/paint.png);
-    height: 80vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position-y: center;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
-#paint a {
-    color: white !important;
-}
 
 
 /* story */
@@ -636,32 +598,13 @@ color: white !important;
 }
 
 
-/* peru */
 
 
 
-/* better */
 
-#better .pb {
-    margin-top: 100px;
-    background-image: url(./Assets/better.jpg);
-    height: 80vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position-y: bottom;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
-#better a {
-    color: white !important;
-}
 
-/* follow */
+/* links */
 .fc img{
     width: 100%;
     height: 100%;
